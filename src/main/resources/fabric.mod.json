@@ -1,18 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "arcane_teleport",
+  "id": "arcanemagic",
   "version": "${version}",
-  "name": "Arcane Teleport",
-  "description": "A small teleport-core test mod.",
+  "name": "ArcaneMagic",
+  "description": "An expandable magic mod beginning with teleportation.",
   "authors": [
-    "沈寒"
+    "jasminewolf101825-netizen"
   ],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "contact": {
+    "sources": "https://github.com/jasminewolf101825-netizen/ArcaneMagic"
+  },
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.shenhan.arcaneteleport.ArcaneTeleport"
+      "com.jasminewolf.arcanemagic.ArcaneMagic"
     ]
   },
   "depends": {

@@ -1,16 +1,23 @@
 # ArcaneMagic
 
-Minecraft Java 26.2 Fabric 傳送核心測試專案。
+Fabric mod project for Minecraft Java Edition 26.2.
 
-## 第一版功能
+## Current milestone
 
-- 新增「傳送核心」
-- 用核心對原版磁石右鍵進行綁定
-- 朝空氣右鍵核心傳送回磁石
-- 三秒冷卻
-- 目前限同一維度
-- 離開世界後綁定資料會重設
+The project currently contains a minimal Fabric entry point and a GitHub
+Actions build. The first gameplay feature will be the Teleport Core.
 
-## 自動編譯
+## Build
 
-每次上傳或修改檔案後，GitHub Actions 會使用 Java 25 與 Gradle 9.5.1 執行建置，並將 `build/libs/` 上傳為 Artifact。
+GitHub Actions builds the mod with Java 25 and Gradle 9.5.1.
+
+After a successful workflow run, download the `ArcaneMagic-26.2` artifact.
+The playable mod JAR is inside that artifact.
+
+## Planned first feature
+
+1. Teleport Crystal block
+2. Teleport Core item
+3. Bind the core by using it on a crystal
+4. Use the bound core to teleport back
+5. Add particles, sounds, cooldowns, and safety checks

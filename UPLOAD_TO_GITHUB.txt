@@ -1,0 +1,11 @@
+ArcaneMagic upload instructions
+
+1. Open the ArcaneMagic repository on GitHub.
+2. Go to Code.
+3. Remove the old project files, or create a fresh repository.
+4. Extract this ZIP on your computer.
+5. Upload the CONTENTS of the ArcaneMagic_26.2_Complete folder.
+   Do not upload the outer folder itself.
+6. Make sure .github/workflows/build.yml is included.
+7. Commit the upload.
+8. Open Actions and select the newest Build ArcaneMagic run.
