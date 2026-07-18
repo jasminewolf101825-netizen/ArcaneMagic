@@ -1,0 +1,41 @@
+ArcaneMagic｜GitHub 上傳與自動編譯
+
+一、解壓縮
+把這個 ZIP 解壓縮。打開後，最外層應直接看到：
+- .github
+- src
+- build.gradle
+- gradle.properties
+- settings.gradle
+- fabric.mod.json 位於 src/main/resources 內
+
+二、上傳至 GitHub
+1. 打開你的 ArcaneMagic 儲存庫。
+2. 點「uploading an existing file」。
+3. 打開解壓縮後的資料夾。
+4. 按 Ctrl+A 全選「資料夾裡面的內容」，拖進 GitHub 上傳區。
+   注意：不要只上傳外面的總資料夾，也不要上傳 ZIP。
+5. 等所有檔案完成。
+6. 下方 Commit message 可填：
+   Initial ArcaneMagic Fabric project
+7. 按 Commit changes。
+
+三、自動編譯
+1. 點儲存庫上方 Actions。
+2. 找 Build ArcaneMagic。
+3. 等待執行完成。
+4. 綠色勾勾：進入該次執行，下載 ArcaneMagic-build。
+5. 解壓下載檔，找到 arcane-teleport-0.1.0.jar。
+6. 把普通 JAR 放進 %AppData%\.minecraft\mods。
+   不要放帶 sources 字樣的 JAR。
+
+四、若出現紅叉
+進入失敗的執行：
+1. 點 build。
+2. 點紅色的 Build mod。
+3. 截圖最下面第一段紅色錯誤給我。
+
+注意
+- 目前是首次編譯測試版，尚未保證一次成功。
+- GitHub Actions 使用 Java 25。
+- 專案版本對應 Minecraft 26.2、Fabric Loader 0.19.3。
